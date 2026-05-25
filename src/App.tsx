@@ -154,7 +154,7 @@ function App() {
 
           {/* Botón tema */}
           <IconButton
-            onClick={() => setDarkMode(!darkMode)}
+            onClick={toggleDarkMode}
             title={darkMode ? 'Modo claro' : 'Modo oscuro'}
             sx={{
               border: '1px solid rgba(255,255,255,0.2)',
