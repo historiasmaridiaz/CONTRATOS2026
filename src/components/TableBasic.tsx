@@ -161,7 +161,7 @@ function TableBasic() {
     'TOMO XVI', 'TOMO XVII', 'TOMO XVIII', 'TOMO XIX', 'TOMO XX'
   ];
 
- /* const _getNextId = (): number => {
+ /* const getNextId = (): number => {
   if (data.length === 0) return 1;
   const ids = data.map(item => parseInt(item.id) || 0).filter(n => !isNaN(n));
   return ids.length > 0 ? Math.max(...ids) + 1 : 1;

@@ -129,7 +129,7 @@ function App() {
                 key={key}
                 onClick={() => {
                         if (key === 'prestamos') {
-                          window.location.href = '/public/contratos_2.html'
+                          window.location.href = '/contratos_2.html'
                           return
                         }
 
