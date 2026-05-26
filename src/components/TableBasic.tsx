@@ -161,11 +161,11 @@ function TableBasic() {
     'TOMO XVI', 'TOMO XVII', 'TOMO XVIII', 'TOMO XIX', 'TOMO XX'
   ];
 
-  const getNextId = (): number => {
+ /* const _getNextId = (): number => {
   if (data.length === 0) return 1;
   const ids = data.map(item => parseInt(item.id) || 0).filter(n => !isNaN(n));
   return ids.length > 0 ? Math.max(...ids) + 1 : 1;
-  };
+  };*/
 
   const getCurrentDateTime = (): string => {
     const now = new Date();
